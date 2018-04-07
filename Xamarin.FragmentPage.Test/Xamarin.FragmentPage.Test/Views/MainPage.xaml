@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:fragment="clr-namespace:Cinary.Xamarin.Fragment;assembly=Cinary.Xamarin.Fragment.FragmentPage"
+             x:Class="Xamarin.FragmentPage.Test.Views.MainPage"
+             Title="{Binding Title}">
+
+    <ScrollView>
+
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+
+            <fragment:FragmentPage
+                HeightRequest="251"
+                HorizontalOptions="FillAndExpand">
+                <fragment:FragmentPage.Content>
+                    <ContentPage
+                        BackgroundColor="Firebrick">
+                        <Label Text="Fragment Page 1" HorizontalOptions="Center" VerticalOptions="Center" />
+                    </ContentPage>
+                </fragment:FragmentPage.Content>
+            </fragment:FragmentPage>
+
+            <fragment:FragmentPage
+                HeightRequest="251"
+                HorizontalOptions="FillAndExpand">
+                <fragment:FragmentPage.Content>
+                    <ContentPage
+                        BackgroundColor="GreenYellow">
+                        <Label Text="Fragment Page 2" HorizontalOptions="Center" VerticalOptions="Center" />
+                    </ContentPage>
+                </fragment:FragmentPage.Content>
+            </fragment:FragmentPage>
+
+            <fragment:FragmentPage
+                HeightRequest="251"
+                HorizontalOptions="FillAndExpand">
+                <fragment:FragmentPage.Content>
+                    <ContentPage
+                        BackgroundColor="Green">
+                        <Label Text="Fragment Page 3" HorizontalOptions="Center" VerticalOptions="Center" />
+                    </ContentPage>
+                </fragment:FragmentPage.Content>
+            </fragment:FragmentPage>
+
+            <fragment:FragmentPage
+                HeightRequest="251"
+                HorizontalOptions="FillAndExpand">
+                <fragment:FragmentPage.Content>
+                    <ContentPage
+                        BackgroundColor="DarkOliveGreen">
+                        <Label Text="Fragment Page 4" HorizontalOptions="Center" VerticalOptions="Center" />
+                    </ContentPage>
+                </fragment:FragmentPage.Content>
+            </fragment:FragmentPage>
+
+            <fragment:FragmentPage
+                HeightRequest="251"
+                HorizontalOptions="FillAndExpand">
+                <fragment:FragmentPage.Content>
+                    <ContentPage
+                        BackgroundColor="PaleGreen">
+                        <Label Text="Fragment Page 5" HorizontalOptions="Center" VerticalOptions="Center" />
+                    </ContentPage>
+                </fragment:FragmentPage.Content>
+            </fragment:FragmentPage>
+
+        </StackLayout>
+
+    </ScrollView>
+
+</ContentPage>
