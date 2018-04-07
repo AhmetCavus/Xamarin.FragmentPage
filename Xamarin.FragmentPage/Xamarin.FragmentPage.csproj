@@ -21,19 +21,21 @@
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     
     <!--TODO: Fill these in-->
-    <PackageLicenseUrl>LINK TO LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>LINK TO PROJECT</PackageProjectUrl>
-    <RepositoryUrl>LINK TO PROJECT</RepositoryUrl>
-    <PackageReleaseNotes>RELEASE NOTES</PackageReleaseNotes>
+    <PackageLicenseUrl>https://github.com/AhmetCavus/Xamarin.FragmentPage/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/AhmetCavus/Xamarin.FragmentPage</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AhmetCavus/Xamarin.FragmentPage</RepositoryUrl>
+    <PackageReleaseNotes>https://github.com/AhmetCavus/Xamarin.FragmentPage/pulse</PackageReleaseNotes>
     <PackageIconUrl>ICON URL</PackageIconUrl>
     <PackageTags>xamarin, windows, ios, android, xamarin.forms, plugin, Xamarin.FragmentPage</PackageTags>
     
     <Title>Xamarin.FragmentPage Plugin for Xamarin and Windows</Title>
-    <Summary>Summary of nuget</Summary>
-    <Description>Plugin Description</Description>
+    <Summary>Place various pages like views in layout!</Summary>
+    <Description>This extension for Xamarin.forms allows the placement of any number of pages in a layout. The pages are wrapped 
+    in views and can have a predefined size in the layout. This approach works with iOS, Android and Windows UWP.
+    </Description>
 
-    <Owners>YOU</Owners>
-    <Authors>YOU</Authors>
+    <Owners>Ahmet Cavus</Owners>
+    <Authors>Ahmet Cavus</Authors>
     <Copyright>Copyright 2018</Copyright>
   </PropertyGroup>
 
