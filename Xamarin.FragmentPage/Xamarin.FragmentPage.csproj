@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard1.0;netstandard2.0;MonoAndroid70;MonoAndroid80;Xamarin.iOS10;uap10.0.15063;Xamarin.TVOS10;Xamarin.WatchOS10;Xamarin.Mac20;</TargetFrameworks>
-    <AssemblyName>Cinary.Xamarin.Fragment.FragmentPage</AssemblyName>
-    <RootNamespace>Cinary.Xamarin.Fragment.FragmentPage</RootNamespace>
-    <PackageId>Plugin.Xamarin.FragmentPage</PackageId>
+    <AssemblyName>Cinary.Xamarin.Fragment</AssemblyName>
+    <RootNamespace>Cinary.Xamarin.Fragment</RootNamespace>
+    <PackageId>Xamarin.FragmentPage</PackageId>
     
     <Product>$(AssemblyName) ($(TargetFramework))</Product>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -37,6 +37,7 @@
     <Owners>Ahmet Cavus</Owners>
     <Authors>Ahmet Cavus</Authors>
     <Copyright>Copyright 2018</Copyright>
+    <RepositoryType>Git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
