@@ -10,7 +10,7 @@ The pages are wrapped in views and can have a predefined size in the layout. Thi
 As you can see in the following example, you can set different pages in a layout in a predefined size. In the example 3 pages were placed in the layout. 
 For more details, the test project can be viewed. 
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
